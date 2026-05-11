@@ -1,0 +1,47 @@
+1 - Create your project 
+npm create vite@latest my-project
+cd my-project 
+after all - go to localhost:5173
+
+2- Install Tailwind CSS
+npm install tailwindcss @tailwindcss/vite
+
+3- Add the @tailwindcss/vite plugin to your Vite configuration.
+
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+4- Add an @import to your index.CSS file that imports Tailwind CSS.
+@import "tailwindcss";
+
+5- npm run dev
+
+6- add in index.html <head>
+<link href="/src/style.css" rel="stylesheet">
+
+7- let app.jsx same basic code using rafce 
+8- Make src\components\Hero.jsx and import in app.jsx
+9- Make front landing page in Hero.jsx
+10- make Navbar.jsx nd import in app.jsx
+11- make navbar -TemplateSee (Premade Templates) - TAKE HELP 
+12-add custommade logo in logo.jsx or use navbar one 
+13-products.jsx - for 3 third page nd import in app.jsx 
+14- CTA.jsx - for 4 third page nd import in app.jsx AND INSERT CORRECT IMAGE IN IT 
+15- appdown .jsx - for 5 third page nd import in app.jsx
+16  - CHANGE BUTTONS IN NAVBAR AND CTA TO FANCY BUTTONS BY CHANGING ANCHOR TAGS 
+17-  FOOTER.jsx - for 6 third page nd import in app.jsx
+
+18-  testi.jsx - for 7 third page nd import in app.jsx
+
+19 - Deployment - name ur project /website - FreshCart in index.html title 
+in T - NPM RUN BUILD 
+a file is made as dist - open - reveal in file explorer 
+open read.me - opens NETLIFY -  add new project - display manually 
+Drop ur dist file - now go to project configuration - change project name FreshCart 
+Now when open the link given nd created - u ll get ur project in that browser 
