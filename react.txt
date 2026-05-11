@@ -45,3 +45,11 @@ a file is made as dist - open - reveal in file explorer
 open read.me - opens NETLIFY -  add new project - display manually 
 Drop ur dist file - now go to project configuration - change project name FreshCart 
 Now when open the link given nd created - u ll get ur project in that browser 
+
+From Now On
+
+Whenever you make changes:
+
+git add .
+git commit -m "updated project"
+git push
