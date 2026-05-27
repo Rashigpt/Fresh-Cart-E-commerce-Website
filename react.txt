@@ -42,7 +42,7 @@ export default defineConfig({
 19 - Deployment - name ur project /website - FreshCart in index.html title 
 in T - NPM RUN BUILD 
 a file is made as dist - open - reveal in file explorer 
-open read.me - opens NETLIFY -  add new project - display manually 
+opens NETLIFY -  add new project - display manually 
 Drop ur dist file - now go to project configuration - change project name FreshCart 
 Now when open the link given nd created - u ll get ur project in that browser 
 
